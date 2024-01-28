@@ -1,4 +1,13 @@
-array = [1,2,3,4,5]
-
-puts array.class
-puts array.join(" | ")
+class Car
+    def self.turn(direction)
+      puts "#{direction}に曲がります。"
+    end
+  
+    def self.run(distance)
+      puts "車で#{distance}キロ走ります。"
+    end
+  end
+  
+  Car.turn("右")
+  
+  Car.run(5)
